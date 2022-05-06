@@ -1,6 +1,18 @@
-# Yelp Dataset for CptS 451 Spring 2022 Term Project
+# YelpQueryMaster (Desktop Application)
 
-## Import data
+**Team Members: Xinyu Liu, Boxiang Lin, Xinru Li, Tianhao Huang**
+
+**Catalog**
+
+- [Setup Database Option 1](#Setup Database From Scratch)
+- [Setup Database Option 2 (Recommanded)](#Setup-Database-by-Backup-File)
+- [Run the C# Application](#Setup-Database-by-Backup-File)
+- [Demo](#Demo)
+
+
+
+## Setup Database From Scratch
+
 ### Step 1
 Install all of python modules required for parsing and inserting
 ```bash
@@ -23,7 +35,47 @@ cd DBPopulate
 python mysql_supremacy_parseAndInsert.py
 ```
 or for Mac users
+
 ```bash
 cd DBPopulate
 python3 mysql_supremacy_parseAndInsert.py
 ```
+
+### Step 5
+
+Load triggers, functions, updates into database, they are located in `SQLScripts/`
+
+
+
+## Setup Database by Backup File
+
+### Step 1
+
+Download the backup file at `dasda`;
+
+### Step 2
+
+Load the backup file.
+
+
+
+
+
+## Run The Application
+
+1. VS code installed
+2. `cd/YelpSrc/`, execute the `YelpSrc.sln`
+
+
+
+## Demo
+
+### User Page
+
+![](Images/UserPage.png)
+
+
+
+### Business Page
+
+![](Images/BusinessPage.png)
