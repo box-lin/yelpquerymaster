@@ -4,7 +4,7 @@
 
 **Catalog**
 
-- [Setup Database Option 1](#Setup Database From Scratch)
+- [Setup Database Option 1](#Setup-Database-From-Scratch)
 - [Setup Database Option 2 (Recommanded)](#Setup-Database-by-Backup-File)
 - [Run the C# Application](#Setup-Database-by-Backup-File)
 - [Demo](#Demo)
@@ -14,6 +14,8 @@
 ## Setup Database From Scratch
 
 ### Step 1
+Download the Json file and put them into `data/`, download link = `https://eecs.wsu.edu/~blin1/files.html` click the `YelpQueryMaster yelpJsonData.zip`
+
 Install all of python modules required for parsing and inserting
 ```bash
 pip install -r requirements.txt
@@ -51,13 +53,11 @@ Load triggers, functions, updates into database, they are located in `SQLScripts
 
 ### Step 1
 
-Download the backup file at `dasda`;
+Download the backup file at `https://eecs.wsu.edu/~blin1/files.html` click `YelpQueryMaster Backup File`;
 
 ### Step 2
 
-Load the backup file.
-
-
+Create your database and load the backup file using `\i` 
 
 
 
