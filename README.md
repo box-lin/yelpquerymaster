@@ -65,6 +65,8 @@ Create your database and load the backup file using `\i`
 
 1. VS code installed
 2. `cd/YelpSrc/`, execute the `YelpSrc.sln`
+3. Install the ScottPlot see `https://www.nuget.org/packages/ScottPlot.WPF/`
+4. Install the NpgSQL see `https://www.npgsql.org/doc/installation.html`
 
 
 
