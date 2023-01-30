@@ -74,6 +74,7 @@ The SQL Function component of the YelpQueryMaster application is a critical comp
 ##### Setup Database From Scratch
 
 **Step 1**
+
 Download the Json file and put them into `data/`, download link = `https://eecs.wsu.edu/~blin1/files.html` click the `YelpQueryMaster yelpJsonData.zip`
 
 Install all of python modules required for parsing and inserting
@@ -90,6 +91,7 @@ pip3 install -r requirements.txt
 Modify `.env` file in root directory depending on your database setup.
 
 **Step 3**
+
 Import the `./DBSchema/mysql_supremacy_RELATIONS_v2.sql` file into your database to create tables.
 
 **Step 4**
