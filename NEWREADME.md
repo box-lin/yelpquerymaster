@@ -5,6 +5,8 @@
 - [Core Feactures](#Core-Feactures)
 - [Technologies Used](#Technologies-Used)
 - [Software Architecture](#Software-Architecture)
+- [Setup Instructions](#Setup-Instructions)
+- [Demo](#Demo)
 
 **Developers:** `Xinyu Liu, Boxiang Lin, Xinru Li, Tianhao Huang`
 
@@ -61,3 +63,79 @@ The SQL Trigger component of the YelpQueryMaster application plays a crucial rol
 
 #### SQL Function
 The SQL Function component of the YelpQueryMaster application is a critical component that plays a crucial role in the calculation of distances between a logged-in user and millions of restaurants. This component leverages the power of SQL to perform complex calculations with high performance and efficiency. The use of SQL Functions providing users with accurate and relevant information in real-time. The decision to use SQL Functions was made to ensure fast and reliable performance, ensuring a seamless and efficient user experience.
+
+### Setup Instructions
+**Options**
+
+- [Setup Database Option 1](#Setup-Database-From-Scratch)
+- [Setup Database Option 2 (Recommanded)](#Setup-Database-by-Backup-File)
+- [Run the C# Application](#Setup-Database-by-Backup-File)
+
+##### Setup Database From Scratch
+
+**Step 1**
+Download the Json file and put them into `data/`, download link = `https://eecs.wsu.edu/~blin1/files.html` click the `YelpQueryMaster yelpJsonData.zip`
+
+Install all of python modules required for parsing and inserting
+```bash
+pip install -r requirements.txt
+```
+or for Mac users
+```bash
+pip3 install -r requirements.txt
+```
+
+**Step 2**
+
+Modify `.env` file in root directory depending on your database setup.
+
+**Step 3**
+Import the `./DBSchema/mysql_supremacy_RELATIONS_v2.sql` file into your database to create tables.
+
+**Step 4**
+
+To load data into DB, first make sure data files are saved in `./data/`, then running the following commands.
+```bash
+cd DBPopulate
+python mysql_supremacy_parseAndInsert.py
+```
+or for Mac users
+
+```bash
+cd DBPopulate
+python3 mysql_supremacy_parseAndInsert.py
+```
+
+**Step 5**
+
+Load triggers, functions, updates into database, they are located in `SQLScripts/`
+
+
+
+##### Setup Database by Backup File
+
+**Step 1**
+
+Download the backup file at `https://eecs.wsu.edu/~blin1/files.html` click `YelpQueryMaster Backup File`;
+
+**Step 2**
+
+Create your database and load the backup file using `\i` 
+
+
+
+##### Run The Application
+
+1. VS installed
+2. `cd/YelpSrc/`, execute the `YelpSrc.sln`
+3. Install the ScottPlot see `https://www.nuget.org/packages/ScottPlot.WPF/`
+4. Install the NpgSQL see `https://www.npgsql.org/doc/installation.html`
+
+
+
+
+### Demo
+![image](https://user-images.githubusercontent.com/57877290/215622853-45bc1586-c09a-4398-b78a-4ba69c9f2e31.png)
+![image](https://user-images.githubusercontent.com/57877290/215622876-07156764-e823-4aa3-8334-e428c21a555a.png)
+
+
