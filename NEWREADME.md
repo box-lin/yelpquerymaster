@@ -71,7 +71,7 @@ The SQL Function component of the YelpQueryMaster application is a critical comp
 - [Setup Database Option 2 (Recommanded)](#Setup-Database-by-Backup-File)
 - [Run the C# Application](#Setup-Database-by-Backup-File)
 
-##### Setup Database From Scratch
+#### Setup Database From Scratch
 
 **Step 1**
 
@@ -114,7 +114,7 @@ Load triggers, functions, updates into database, they are located in `SQLScripts
 
 
 
-##### Setup Database by Backup File
+#### Setup Database by Backup File
 
 **Step 1**
 
@@ -126,7 +126,7 @@ Create your database and load the backup file using `\i`
 
 
 
-##### Run The Application
+#### Run The Application
 
 1. VS installed
 2. `cd/YelpSrc/`, execute the `YelpSrc.sln`
