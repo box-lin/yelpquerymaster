@@ -3,7 +3,16 @@
 **Catalog**
 - [Abstract](#Abstract)
 - [Core Feactures](#Core-Feactures)
+- [Technologies Used](#Technologies-Used)
+- [Software Architecture](#Software-Architecture)
 
+**Developers:** `Xinyu Liu, Boxiang Lin, Xinru Li, Tianhao Huang`
+
+**Date Revised:** `01/30/2022`
+
+**Revised By:** `Boxiang Lin`
+
+---
 
 ### Abstract
 YelpQueryMaster is a comprehensive desktop solution that empowers users to effortlessly discover and evaluate dining establishments. With its advanced filtering options, including location, price range, and meal category, users can find the perfect restaurant to suit their needs. In addition, it provides insightful feedback issued by customers and straightforward histograms that shows the historical check-ins.
