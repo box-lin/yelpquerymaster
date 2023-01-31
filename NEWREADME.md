@@ -65,7 +65,12 @@ The SQL Function component of the YelpQueryMaster application is a critical comp
 
 
 ### Demo
+The YelpQueryMaster consist of 2 portals - user portal and busienss search portal.
+
+*Figure 2. User Portal*
 ![image](https://user-images.githubusercontent.com/57877290/215622853-45bc1586-c09a-4398-b78a-4ba69c9f2e31.png)
+
+*Figure 3. Business Search Portal*
 ![image](https://user-images.githubusercontent.com/57877290/215622876-07156764-e823-4aa3-8334-e428c21a555a.png)
 
 
