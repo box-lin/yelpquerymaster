@@ -63,12 +63,6 @@ The SQL Trigger component of the YelpQueryMaster application plays a crucial rol
 #### SQL Function
 The SQL Function component of the YelpQueryMaster application is a critical component that plays a crucial role in the calculation of distances between a logged-in user and millions of restaurants. This component leverages the power of SQL to perform complex calculations with high performance and efficiency. The use of SQL Functions providing users with accurate and relevant information in real-time. The decision to use SQL Functions was made to ensure fast and reliable performance, ensuring a seamless and efficient user experience.
 
-### Setup Instructions
-**Options**
-
-- [Setup Database Option 1](#Setup-Database-From-Scratch)
-- [Setup Database Option 2 (Recommanded)](#Setup-Database-by-Backup-File)
-- [Run the C# Application](#Setup-Database-by-Backup-File)
 
 ### Demo
 ![image](https://user-images.githubusercontent.com/57877290/215622853-45bc1586-c09a-4398-b78a-4ba69c9f2e31.png)
